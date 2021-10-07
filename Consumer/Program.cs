@@ -39,10 +39,6 @@ namespace Consumer
                             cfg.ConfigureEndpoints(context);
                         });
                     });
-                    
-                    //services.AddMassTransitHostedService(true);
-
-                    services.AddHostedService<Worker>();
                 });
     }
 }

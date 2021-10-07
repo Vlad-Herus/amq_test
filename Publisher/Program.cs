@@ -38,7 +38,8 @@ namespace publish
                         });
                     });
 
-                    services.AddHostedService<Worker>();
+                    services.AddMassTransitHostedService();
+                    services.AddTransient<Worker>();
                 });
     }
 }

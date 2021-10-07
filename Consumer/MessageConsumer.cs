@@ -26,11 +26,3 @@ namespace Consumer
         }
     }
 }
-
-namespace Samples.Shared
-{
-    public interface ISampleEvent
-    {
-        string Message { get; }
-    }
-}
