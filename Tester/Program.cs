@@ -26,6 +26,15 @@ namespace Tester
 
             await depot!.Stop(CancellationToken.None);
 
+            Console.WriteLine("--- restarting the depot ---");
+
+            await depot!.Start(CancellationToken.None);
+
+            await Task.Delay(15000);
+
+            Console.WriteLine("--- 15 seconds elapsed ---");
+
+
             Console.ReadKey();
         }
     }

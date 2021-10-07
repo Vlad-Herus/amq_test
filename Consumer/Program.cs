@@ -39,7 +39,6 @@ namespace Consumer
 
                             cfg.ReceiveEndpoint("test_queue_sample", e =>
                             {
-                                e.UseMessageRetry(aa => aa.Interval(5, 1000));
                                 e.ConcurrentMessageLimit = 3;
                                 e.PrefetchCount = 10;
                                 e.Consumer<MessageConsumer>();
