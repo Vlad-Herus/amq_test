@@ -34,6 +34,7 @@ namespace Tester
 
             Console.WriteLine("--- 15 seconds elapsed ---");
 
+            await depot!.Stop(CancellationToken.None);
 
             Console.ReadKey();
         }

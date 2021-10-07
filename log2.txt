@@ -4,281 +4,290 @@ info: Microsoft.Hosting.Lifetime[0]
       Hosting environment: Production
 info: Microsoft.Hosting.Lifetime[0]
       Content root path: E:\GIT\Personal\amq_test\Tester\bin\Debug\net6.0
-[08:56:31 DBG] Subscribing Consumer: Consumer.MessageConsumer (using default constructor)
-[08:56:31 DBG] Starting bus instances: IBus
-[08:56:31 DBG] Starting bus: activemq://127.0.0.1:61616/
-[08:56:31 DBG] Connect: 127.0.0.1:61616
-info: MassTransit[0]
+[09:00:43 DBG] Subscribing Consumer: Consumer.MessageConsumer (using default constructor)
+[09:00:43 DBG] Starting bus instances: IBus
+[09:00:43 DBG] Starting bus: info: MassTransit[0]
       Bus started: activemq://127.0.0.1:61616/
-[08:56:31 DBG] Connected: 127.0.0.1:61616 (client-id: ID:mayg-62624-637692801914923959-2:0, version: 1.8.0.0)
-[08:56:31 DBG] Endpoint Ready: activemq://127.0.0.1:61616/MAYG_Tester_bus_rjayyyfbxesx5f14bdcauzk1ri?temporary=true
-[08:56:31 DBG] Get topic name: VirtualTopic.Samples.Shared.ISampleEvent, durable
-[08:56:31 DBG] Get queue name: test_queue_sample, durable
-[08:56:31 DBG] Get queue name: Consumer.test_queue_sample.VirtualTopic.Samples.Shared.ISampleEvent, durable
-[08:56:31 DBG] Created consumer for activemq://127.0.0.1:61616/test_queue_sample: Consumer.test_queue_sample.VirtualTopic.Samples.Shared.ISampleEvent?consumer.prefetchSize=10
-[08:56:31 DBG] Created consumer for activemq://127.0.0.1:61616/test_queue_sample: test_queue_sample?consumer.prefetchSize=10
-[08:56:31 DBG] Consumers Ready: activemq://127.0.0.1:61616/test_queue_sample
-[08:56:31 DBG] Endpoint Ready: activemq://127.0.0.1:61616/test_queue_sample
-[08:56:31 INF] Bus started: activemq://127.0.0.1:61616/
-[08:56:31 DBG] Get topic name: VirtualTopic.Samples.Shared.ISampleEvent, durable
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ae6a-08d989dd52d2 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-68aa-08d989dd52fb Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4abe-08d989dd52fc Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0f9b-08d989dd52fe Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0f1d-08d989dd52ff Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-a698-08d989dd52ff Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0cdd-08d989dd5300 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-a2cb-08d989dd5300 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-fbfe-08d989dd5300 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-03f3-08d989dd5302 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-f070-08d989dd5302 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-f42c-08d989dd5303 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7a96-08d989dd5304 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-d6a7-08d989dd5304 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-35af-08d989dd5305 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ada8-08d989dd5305 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4b65-08d989dd5306 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-b7c3-08d989dd5306 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0eb5-08d989dd5307 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-6208-08d989dd5307 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-b62a-08d989dd5307 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-8df1-08d989dd5308 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-dd48-08d989dd5308 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-59bb-08d989dd5309 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-b04e-08d989dd5309 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-082c-08d989dd530a Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-6eaf-08d989dd530a Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0138-08d989dd530b Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-5998-08d989dd530b Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-cb91-08d989dd530b Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-38b5-08d989dd530c Samples.Shared.ISampleEventProcessing 1
+activemq://127.0.0.1:61616/
+[09:00:43 DBG] Connect: 127.0.0.1:61616
+[09:00:43 DBG] Connected: 127.0.0.1:61616 (client-id: ID:mayg-60532-637692804433353321-2:0, version: 1.8.0.0)
+[09:00:43 DBG] Endpoint Ready: activemq://127.0.0.1:61616/MAYG_Tester_bus_rjayyyfbxesx51jpbdcauzxefu?temporary=true
+[09:00:43 DBG] Get topic name: VirtualTopic.Samples.Shared.ISampleEvent, durable
+[09:00:43 DBG] Get queue name: test_queue_sample, durable
+[09:00:43 DBG] Get queue name: Consumer.test_queue_sample.VirtualTopic.Samples.Shared.ISampleEvent, durable
+[09:00:43 DBG] Created consumer for activemq://127.0.0.1:61616/test_queue_sample: test_queue_sample?consumer.prefetchSize=10
+[09:00:43 DBG] Created consumer for activemq://127.0.0.1:61616/test_queue_sample: Consumer.test_queue_sample.VirtualTopic.Samples.Shared.ISampleEvent?consumer.prefetchSize=10
+[09:00:43 DBG] Consumers Ready: activemq://127.0.0.1:61616/test_queue_sample
+[09:00:43 DBG] Endpoint Ready: activemq://127.0.0.1:61616/test_queue_sample
+[09:00:43 INF] Bus started: activemq://127.0.0.1:61616/
+[09:00:43 DBG] Get topic name: VirtualTopic.Samples.Shared.ISampleEvent, durable
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-e380-08d989dde8e8 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-256a-08d989dde90c Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-a868-08d989dde90c Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-b5dd-08d989dde90d Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-870e-08d989dde90e Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0ca7-08d989dde90f Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-c31d-08d989dde90f Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-2ff3-08d989dde910 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-e461-08d989dde910 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4b66-08d989dde911 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-c20b-08d989dde911 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-a38e-08d989dde912 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-5607-08d989dde913 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-a6d8-08d989dde913 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-045d-08d989dde914 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7ba7-08d989dde914 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-deeb-08d989dde914 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0a87-08d989dde916 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-6ed6-08d989dde916 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-c35f-08d989dde916 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-37ad-08d989dde917 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-d69a-08d989dde917 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-9090-08d989dde918 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-eca3-08d989dde918 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-52d5-08d989dde919 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-dcf9-08d989dde919 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-5a7c-08d989dde91a Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-c412-08d989dde91a Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-34d0-08d989dde91b Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-85b9-08d989dde91b Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-f460-08d989dde91b Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-6ca2-08d989dde91d Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-17a6-08d989dde91e Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-73ea-08d989dde91e Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-09af-08d989dde91f Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-720c-08d989dde91f Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-cf3f-08d989dde91fProcessing 0
+Processing 1
 Processing 2
-Processing 0
-
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-e4aa-08d989dd530c Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-2d07-08d989dd530e Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-8686-08d989dd530e Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-cd82-08d989dd530e Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-508c-08d989dd530f Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ee6b-08d989dd530f Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4270-08d989dd5310 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-959c-08d989dd5310 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ef41-08d989dd5310 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-3bd1-08d989dd5311 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-8042-08d989dd5311 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-22ed-08d989dd5312 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-722c-08d989dd5312 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-b90e-08d989dd5312 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ff5b-08d989dd5312 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4c14-08d989dd5313 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-976e-08d989dd5313 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-deba-08d989dd5313 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7280-08d989dd5314 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-c6ee-08d989dd5314 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-1250-08d989dd5315 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-58db-08d989dd5315 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-a1be-08d989dd5315 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-f40c-08d989dd5315 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-3167-08d989dd5316 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-bf93-08d989dd5316 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-2521-08d989dd5317 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-76ee-08d989dd5317 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ce58-08d989dd5317 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-18a8-08d989dd5318 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-6c4a-08d989dd5318 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0aba-08d989dd5319 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-62df-08d989dd5319 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-c103-08d989dd5319 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-1248-08d989dd531a Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-5a72-08d989dd531a Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-9f9a-08d989dd531a Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-f4d1-08d989dd531a Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-579a-08d989dd531c Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-a0a3-08d989dd531c Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-eb34-08d989dd531c Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-3609-08d989dd531d Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-8f7f-08d989dd531e Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-1efb-08d989dd531f Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-676c-08d989dd531f Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-acd5-08d989dd531f Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-5aec-08d989dd5320 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ba57-08d989dd5320 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0f70-08d989dd5321 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-6ad4-08d989dd5321 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-b4a4-08d989dd5321 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4321-08d989dd5322 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-e586-08d989dd5322 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-3954-08d989dd5323 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-82d8-08d989dd5323 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-f256-08d989dd5323 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-61fc-08d989dd5324 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ae08-08d989dd5324 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-3d9e-08d989dd5325 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-8934-08d989dd5325 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-cfaf-08d989dd5325 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-1486-08d989dd5326 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7226-08d989dd5326 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-bc02-08d989dd5326 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-021d-08d989dd5327 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-c3d7-08d989dd5327 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-10df-08d989dd5328 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-5919-08d989dd5328 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-9d7e-08d989dd5328 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4799-08d989dd5329 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-902a-08d989dd5329 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0ed9-08d989dd532a Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-5c55-08d989dd532a Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-a0d2-08d989dd532a Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-e7b2-08d989dd532a Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-2c49-08d989dd532b Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7cd9-08d989dd532b Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-c84c-08d989dd532b Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-6140-08d989dd532c Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-d2b8-08d989dd532c Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-1b08-08d989dd532d Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-6047-08d989dd532d Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-af93-08d989dd532d Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-f7ee-08d989dd532e Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-61e4-08d989dd532f Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ad35-08d989dd532f Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ee21-08d989dd532f Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4c67-08d989dd5330 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ac2b-08d989dd5330 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-519e-08d989dd5331 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-9e49-08d989dd5331 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ec76-08d989dd5331 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-34f7-08d989dd5332 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7cbe-08d989dd5332 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-c39e-08d989dd5332 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7981-08d989dd5333 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-c39d-08d989dd5333 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0ae4-08d989dd5334 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-58c6-08d989dd5334 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-abc7-08d989dd5334 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-f47f-08d989dd5334 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-9fa8-08d989dd5335 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-f555-08d989dd5335 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-3f40-08d989dd5336 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-86a0-08d989dd5336 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-dc11-08d989dd5336 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-2ae6-08d989dd5337 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7058-08d989dd5337 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-1575-08d989dd5338 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7551-08d989dd5338 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-c1c4-08d989dd5338 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0625-08d989dd5339 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-51b0-08d989dd5339 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-a3ca-08d989dd5339 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ebba-08d989dd5339 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-6f6d-08d989dd533a Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-c579-08d989dd533a Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0b5e-08d989dd533b Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-533a-08d989dd533b Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-9737-08d989dd533b Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-e173-08d989dd533b Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-344a-08d989dd533c Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-1119-08d989dd533d Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-9afa-08d989dd533d Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-e202-08d989dd533d Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-278d-08d989dd533e Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-80c4-08d989dd533e Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-be9a-08d989dd533f Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0e10-08d989dd5340 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4dfa-08d989dd5340 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-991b-08d989dd5340 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-e219-08d989dd5340 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-9dcc-08d989dd5341 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ea2b-08d989dd5342 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4136-08d989dd5343 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-e777-08d989dd5343 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-3e51-08d989dd5344 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-953e-08d989dd5344 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-fb53-08d989dd5344 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4e77-08d989dd5345 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-9bb1-08d989dd5345 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-62c9-08d989dd5346 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-b27b-08d989dd5346 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-037a-08d989dd5347 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-612d-08d989dd5347 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-b688-08d989dd5347 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-11a3-08d989dd5348 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-d2c5-08d989dd5348 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-2548-08d989dd5349 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7250-08d989dd5349 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-c185-08d989dd5349 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-1b6c-08d989dd534a Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-6950-08d989dd534a Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-d540-08d989dd534b Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-2518-08d989dd534c Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7907-08d989dd534c Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-cab1-08d989dd534c Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-81e5-08d989dd534d Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-e031-08d989dd534d Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-334e-08d989dd534e Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7986-08d989dd534e Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-be3a-08d989dd534e Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-19a7-08d989dd534f Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7256-08d989dd534f Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-53cd-08d989dd5350 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-b11e-08d989dd5350 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-f86e-08d989dd5350 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-3db7-08d989dd5351 Samples.Shared.ISampleEvent
-[08:56:32 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-95bf-08d989dd5351 Samples.Shared.ISampleEvent
+ Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-6387-08d989dde920 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-c3dd-08d989dde920 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-b107-08d989dde921 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-1744-08d989dde922 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7228-08d989dde922 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-d19f-08d989dde922 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-30ca-08d989dde923 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-2083-08d989dde924 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-9f4c-08d989dde925 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0fdd-08d989dde926 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7639-08d989dde926 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-d73a-08d989dde926 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-208d-08d989dde927 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-9e9d-08d989dde927 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-3a31-08d989dde928 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-90e4-08d989dde928 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-d136-08d989dde929 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4d13-08d989dde92b Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-c013-08d989dde92b Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-2ff3-08d989dde92c Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-2e17-08d989dde92d Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-89cb-08d989dde92d Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ba19-08d989dde92e Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-6f3b-08d989dde92f Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-c450-08d989dde92f Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-1075-08d989dde930 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-bcc3-08d989dde930 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-109c-08d989dde931 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-e70f-08d989dde933 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-baeb-08d989dde934 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-d48c-08d989dde935 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-8671-08d989dde936 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-1279-08d989dde937 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7376-08d989dde937 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-855c-08d989dde938 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0ccc-08d989dde939 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-69bc-08d989dde939 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-c096-08d989dde939 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-085f-08d989dde93a Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-388a-08d989dde93b Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0a42-08d989dde93c Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-5f93-08d989dde93c Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-bc4a-08d989dde93c Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-3358-08d989dde93d Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-c542-08d989dde93d Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4b41-08d989dde93f Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4e4f-08d989dde940 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ddff-08d989dde940 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-6fb4-08d989dde941 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-5736-08d989dde942 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-b00d-08d989dde942 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4d08-08d989dde943 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-bb8a-08d989dde943 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-199e-08d989dde944 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-3cde-08d989dde946 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-955b-08d989dde947 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-edf7-08d989dde947 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-41d6-08d989dde948 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-b61c-08d989dde948 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-37e4-08d989dde94a Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4c3a-08d989dde94b Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-a8b2-08d989dde94b Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-1be6-08d989dde94c Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-959e-08d989dde94c Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0c05-08d989dde94e Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-99ad-08d989dde94e Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-e13a-08d989dde951 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-1e37-08d989dde953 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7831-08d989dde953 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-1b8c-08d989dde954 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7573-08d989dde954 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0071-08d989dde955 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-6ab6-08d989dde955 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-6f82-08d989dde956 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-f1d6-08d989dde956 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-6664-08d989dde957 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-bf19-08d989dde957 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7886-08d989dde958 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4da0-08d989dde95a Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-8875-08d989dde95b Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-5cdd-08d989dde95c Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0e8d-08d989dde95d Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-e150-08d989dde95d Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7aa6-08d989dde95e Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-c1e1-08d989dde95e Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0993-08d989dde95f Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-588b-08d989dde95f Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-2da0-08d989dde960 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-d849-08d989dde960 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-3419-08d989dde961 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-84c9-08d989dde961 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-29c5-08d989dde962 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7165-08d989dde962 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-bb39-08d989dde962 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-8ec8-08d989dde963 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-e5e2-08d989dde963 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-388d-08d989dde964 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-835a-08d989dde964 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-da6c-08d989dde964 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-777f-08d989dde965 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-d77a-08d989dde965 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-27ab-08d989dde966 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-71a1-08d989dde966 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-f2c8-08d989dde966 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4523-08d989dde967 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-a202-08d989dde967 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-277a-08d989dde968 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-81dc-08d989dde968 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-d131-08d989dde968 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-5fe5-08d989dde969 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-b170-08d989dde969 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-02a3-08d989dde96a Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-83f5-08d989dde96a Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ccc2-08d989dde96a Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-28c8-08d989dde96b Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ba6d-08d989dde96b Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0cdd-08d989dde96c Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-aa45-08d989dde96c Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-f49e-08d989dde96c Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4202-08d989dde96d Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-968e-08d989dde96d Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-21c9-08d989dde96e Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-76c1-08d989dde96e Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-1df0-08d989dde96f Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-6771-08d989dde96f Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-b09e-08d989dde96f Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-18c1-08d989dde970 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-9afc-08d989dde971 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-3b91-08d989dde972 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-8aff-08d989dde972 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-295d-08d989dde973 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ab4b-08d989dde973 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4a13-08d989dde974 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-f8d7-08d989dde974 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-d9bb-08d989dde975 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-a4dd-08d989dde976 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-2b38-08d989dde977 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-b568-08d989dde977 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-b2cb-08d989dde978 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-4ac8-08d989dde979 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-9ed0-08d989dde979 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-6ae7-08d989dde97a Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-e8ab-08d989dde97a Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-3ea6-08d989dde97b Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-a71c-08d989dde97b Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-39f8-08d989dde97c Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-9eca-08d989dde97c Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-449f-08d989dde97d Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-8fee-08d989dde97d Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-e517-08d989dde97d Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-5108-08d989dde97e Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-9f1f-08d989dde97e Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-1e7c-08d989dde97f Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-172b-08d989dde980 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-93f5-08d989dde980 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-ef1f-08d989dde980 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-43c5-08d989dde981 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-9219-08d989dde982 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-616d-08d989dde983 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0f58-08d989dde984 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-abf4-08d989dde984 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-0737-08d989dde985 Samples.Shared.ISampleEvent
+[09:00:44 DBG] SEND activemq://127.0.0.1:61616/VirtualTopic.Samples.Shared.ISampleEvent?type=topic 22700000-a17a-2cfd-7e40-08d989dde985 Samples.Shared.ISampleEvent
 Processing 0 finished
 Processing 1 finished
 Processing 2 finished
-[08:56:37 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-4abe-08d989dd52fc Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0273761)
-[08:56:37 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-ae6a-08d989dd52d2 Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0241426)
-[08:56:37 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-68aa-08d989dd52fb Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0245069)
+[09:00:49 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-e380-08d989dde8e8 Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0221085)
+[09:00:49 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-a868-08d989dde90c Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0289135)
+[09:00:49 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-256a-08d989dde90c Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0235751)
 Processing 3
 Processing 4
 Processing 5
-Processing 3 finished
 Processing 4 finished
-[08:56:42 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-0f9b-08d989dd52fe Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0077122)
-[08:56:42 DBGProcessing 6
-] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-0f1d-08d989dd52ff Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0092265)
+Processing 3 finished
+[09:00:54 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-870e-08d989dde90e Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0135494)
+[09:00:54Processing 6
+ DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-b5dd-08d989dde90d Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0144949)
 Processing 7
 Processing 5 finished
-[08:56:43 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-a698-08d989dd52ff Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0036743)
+[09:00:55 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-0ca7-08d989dde90f Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0025268)
 Processing 8
-Processing 6 finished
 Processing 7 finished
-[08:56:47 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-0cdd-08d989dd5300 Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0144821)
-[08:56:47 Processing 9
-DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-a2cb-08d989dd5300 Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0124821)
+Processing 6 finished
+[09:00:59 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-2ff3-08d989dde910 Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0047284)
+[09:00:59 Processing 9
+DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-c31d-08d989dde90f Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0180606)
 Processing 10
 Processing 8 finished
-[08:56:48 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-fbfe-08d989dd5300 Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0153433)
+[09:01:00 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-e461-08d989dde910 Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0252329)
 Processing 11
-[08:56:48 DBG] Stopping bus instances: IBus
-[08:56:48 DBG] Stopping bus: activemq://127.0.0.1:61616/
-[08:56:48 DBG] Endpoint Stopping: activemq://127.0.0.1:61616/test_queue_sample
-[08:56:48 DBG] Stopping receive transport: activemq://127.0.0.1:61616/test_queue_sample
-[08:56:48 DBG] Endpoint Stopping: activemq://127.0.0.1:61616/MAYG_Tester_bus_rjayyyfbxesx5f14bdcauzk1ri?temporary=true
-[08:56:48 DBG] Stopping receive transport: activemq://127.0.0.1:61616/MAYG_Tester_bus_rjayyyfbxesx5f14bdcauzk1ri?temporary=true
-Processing 10 finished
+[09:01:00 DBG] Stopping bus instances: IBus
+[09:01:00 DBG] Stopping bus: activemq://127.0.0.1:61616/
+[09:01:00 DBG] Endpoint Stopping: activemq://127.0.0.1:61616/test_queue_sample
+[09:01:00 DBG] Stopping receive transport: activemq://127.0.0.1:61616/test_queue_sample
+[09:01:00 DBG] Endpoint Stopping: activemq://127.0.0.1:61616/MAYG_Tester_bus_rjayyyfbxesx51jpbdcauzxefu?temporary=true
+[09:01:00 DBG] Stopping receive transport: activemq://127.0.0.1:61616/MAYG_Tester_bus_rjayyyfbxesx51jpbdcauzxefu?temporary=true
 Processing 9 finished
-[08:56:52 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-f070-08d989dd5302 Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0080592)
-[08:56:52 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-03f3-08d989dd5302 Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0165538)
+Processing 10 finished
+[09:01:04 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-4b66-08d989dde911 Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0107330)
+[09:01:04 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-c20b-08d989dde911 Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0076192)
 Processing 11 finished
-[08:56:53 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-f42c-08d989dd5303 Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0221327)
-[08:56:53 DBG] Endpoint Completed: activemq://127.0.0.1:61616/test_queue_sample
-[08:56:53 DBG] Disconnect: 127.0.0.1:61616
-[08:56:53 DBG] Consumer completed activemq://127.0.0.1:61616/test_queue_sample: 12 received, 3 concurrent
-[08:56:53 DBG] Disconnected: 127.0.0.1:61616
-[08:56:53 INF] Bus stopped: activemq://127.0.0.1:61616/
+[09:01:05 DBG] RECEIVE activemq://127.0.0.1:61616/test_queue_sample 22700000-a17a-2cfd-a38e-08d989dde912 Samples.Shared.ISampleEvent Consumer.MessageConsumer(00:00:05.0038949)
+[09:01:05 DBG] Endpoint Completed: activemq://127.0.0.1:61616/test_queue_sample
+[09:01:05 DBG] Consumer completed activemq://127.0.0.1:61616/test_queue_sample: 12 received, 3 concurrent
+[09:01:05 DBG] Disconnect: 127.0.0.1:61616
+[09:01:05 DBG] Disconnected: 127.0.0.1:61616
+[09:01:05 INF] Bus stopped: activemq://127.0.0.1:61616/
 --- restarting the depot ---
-[08:56:53 DBG] Starting bus instances: IBus
-[08:56:53 DBG] Starting bus: activemq://127.0.0.1:61616/
-[08:56:53 DBG] Connect: 127.0.0.1:61616
-[08:56:53 DBG] Connected: 127.0.0.1:61616 (client-id: ID:mayg-62624-637692801914923959-3:0, version: 1.8.0.0)
-[08:56:53 DBG] Get topic name: VirtualTopic.Samples.Shared.ISampleEvent, durable
-[08:56:53 DBG] Get queue name: test_queue_sample, durable
-[08:56:53 DBG] Get queue name: Consumer.test_queue_sample.VirtualTopic.Samples.Shared.ISampleEvent, durable
-[08:56:53 DBG] Created consumer for activemq://127.0.0.1:61616/test_queue_sample: test_queue_sample?consumer.prefetchSize=10
-[08:56:53 DBG] Created consumer for activemq://127.0.0.1:61616/test_queue_sample: Consumer.test_queue_sample.VirtualTopic.Samples.Shared.ISampleEvent?consumer.prefetchSize=10
-[08:56:53 DBG] Consumers Ready: activemq://127.0.0.1:61616/test_queue_sample
-[08:56:53 DBG] Endpoint Ready: activemq://127.0.0.1:61616/test_queue_sample
-[08:56:53 INF] Bus started: activemq://127.0.0.1:61616/
+[09:01:05 DBG] Starting bus instances: IBus
+[09:01:05 DBG] Starting bus: activemq://127.0.0.1:61616/
+[09:01:05 DBG] Connect: 127.0.0.1:61616
+[09:01:05 DBG] Connected: 127.0.0.1:61616 (client-id: ID:mayg-60532-637692804433353321-3:0, version: 1.8.0.0)
+[09:01:05 DBG] Get topic name: VirtualTopic.Samples.Shared.ISampleEvent, durable
+[09:01:05 DBG] Get queue name: test_queue_sample, durable
+[09:01:05 DBG] Get queue name: Consumer.test_queue_sample.VirtualTopic.Samples.Shared.ISampleEvent, durable
+[09:01:05 DBG] Created consumer for activemq://127.0.0.1:61616/test_queue_sample: test_queue_sample?consumer.prefetchSize=10
+[09:01:05 DBG] Created consumer for activemq://127.0.0.1:61616/test_queue_sample: Consumer.test_queue_sample.VirtualTopic.Samples.Shared.ISampleEvent?consumer.prefetchSize=10
+[09:01:05 DBG] Consumers Ready: activemq://127.0.0.1:61616/test_queue_sample
+[09:01:05 DBG] Endpoint Ready: activemq://127.0.0.1:61616/test_queue_sample
+[09:01:05 INF] Bus started: activemq://127.0.0.1:61616/
 --- 15 seconds elapsed ---
+[09:01:20 DBG] Stopping bus instances: IBus
+[09:01:20 DBG] Stopping bus: activemq://127.0.0.1:61616/
+[09:01:20 DBG] Endpoint Stopping: activemq://127.0.0.1:61616/test_queue_sample
+[09:01:20 DBG] Stopping receive transport: activemq://127.0.0.1:61616/test_queue_sample
+[09:01:20 DBG] Endpoint Completed: activemq://127.0.0.1:61616/test_queue_sample
+[09:01:20 DBG] Consumer completed activemq://127.0.0.1:61616/test_queue_sample: 0 received, 0 concurrent
+[09:01:20 DBG] Disconnect: 127.0.0.1:61616
+[09:01:20 DBG] Disconnected: 127.0.0.1:61616
+[09:01:20 INF] Bus stopped: activemq://127.0.0.1:61616/
