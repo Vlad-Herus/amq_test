@@ -1,7 +1,8 @@
 using GreenPipes;
 using MassTransit;
 using MassTransit.ActiveMqTransport;
-using MassTransit.Registration;
+using Serilog;
+using Serilog.Events;
 
 namespace Consumer
 {
@@ -17,13 +18,21 @@ namespace Consumer
 
         public static IHostBuilder CreateHostBuilder() =>
             Host.CreateDefaultBuilder()
+                .UseSerilog((host, log) =>
+                {
+                    log.MinimumLevel.Verbose();
+
+                    log.MinimumLevel.Override("Microsoft", LogEventLevel.Warning);
+                    log.MinimumLevel.Override("Quartz", LogEventLevel.Information);
+                    log.WriteTo.Console();
+                })
                 .ConfigureServices((hostContext, services) =>
                 {
                     services.AddMassTransit(x =>
                     {
                         x.UsingActiveMq((context, cfg) =>
                         {
-                            
+
                             cfg.Host("127.0.0.1", 61616, h =>
                             {
                             });
