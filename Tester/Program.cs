@@ -16,25 +16,25 @@ namespace Tester
                 .Build();
             await consumeHost.StartAsync();
 
-            var depot = consumeHost.Services.GetService(typeof(IBusDepot)) as IBusDepot;
+            var depot = (consumeHost.Services.GetService(typeof(IBusDepot)) as IBusDepot)!;
             await depot!.Start(CancellationToken.None);
 
-            var worker = publishHost.Services.GetService(typeof(Worker)) as Worker;
-            await worker!.Publish(200, CancellationToken.None);
+            var worker = (publishHost.Services.GetService(typeof(Worker)) as Worker)!;
+            await worker.Publish(200, CancellationToken.None);
 
             await Task.Delay(15000);
 
-            await depot!.Stop(CancellationToken.None);
+            await depot.Stop(CancellationToken.None);
 
             Console.WriteLine("--- restarting the depot ---");
 
-            await depot!.Start(CancellationToken.None);
+            await depot.Start(CancellationToken.None);
 
             await Task.Delay(15000);
 
             Console.WriteLine("--- 15 seconds elapsed ---");
 
-            await depot!.Stop(CancellationToken.None);
+            await depot.Stop(CancellationToken.None);
 
             Console.ReadKey();
         }
